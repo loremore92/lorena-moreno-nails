@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lorena Moreno Nails & Beauty</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<img src="images/logo.png" class="logo">
+
+<h1>Calcula tu presupuesto</h1>
+
+<p>Selecciona tu servicio</p>
+
+<select id="servicio">
+
+<option value="7">Retirada + Limpieza (7€)</option>
+
+<option value="16">Semipermanente + Refuerzo (16€)</option>
+
+<option value="16">Semipermanente + Refuerzo Fibra (16€)</option>
+
+<option value="25">Puesta Nueva Gel Xpress hasta Nº1 (25€)</option>
+
+<option value="28">Puesta Nueva Gel Xpress desde Nº2 (28€)</option>
+
+<option value="20">Relleno Gel Xpress (20€)</option>
+
+</select>
+
+<h2>Decoración</h2>
+
+<label><input type="checkbox" value="1" class="extra"> Babyboomer (+1€)</label>
+
+<label><input type="checkbox" value="1" class="extra"> Aerógrafo (+1€)</label>
+
+<label><input type="checkbox" value="1" class="extra"> Perlas/Piedras (+1€)</label>
+
+<label><input type="checkbox" value="1" class="extra"> Efectos (+1€)</label>
+
+<select id="nailart">
+
+<option value="0">Sin Nail Art</option>
+
+<option value="2">Nail Art (+2€)</option>
+
+<option value="3">Nail Art Premium (+3€)</option>
+
+</select>
+
+<h2>Uñas rotas</h2>
+
+<input type="number" id="rotas" min="0" value="0">
+
+<h2>Total</h2>
+
+<div id="total">7 €</div>
+
+<button onclick="enviarWhatsapp()">Reservar por WhatsApp</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
